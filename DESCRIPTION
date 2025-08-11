@@ -1,7 +1,7 @@
 Package: RenyiExtropy
 Type: Package
 Title: Entropy and Extropy Measures for Probability Distributions
-Version: 0.2.0
+Version: 0.2.0.9000
 Authors@R: c(
     person(given = "Mahesh", family = "Divakaran",
            email = "itsmdivakaran@gmail.com", 
