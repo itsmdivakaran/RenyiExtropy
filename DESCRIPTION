@@ -1,0 +1,23 @@
+Package: RenyiExtropy
+Title: Entropy and Extropy Measures for Probability Distributions
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Mahesh", family = "Divakaran",
+           email = "itsmdivakaran@gmail.com", 
+           role = "cre",
+           comment = c(ORCID = "0000-0002-3488-0857")),
+    person(given = "Rajesh", family = "G",
+           email = "rajeshgstat@cusat.ac.in", 
+           role = "aut",
+           comment = c(ORCID = "0000-0002-3488-0857")))
+Description: Provides functions to compute Shannon entropy, Rényi entropy, Tsallis entropy, 
+    and related extropy measures for discrete probability distributions. Includes normalized 
+    versions and support for various q-orders. Useful for information theory, statistics, 
+    and machine learning applications.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
