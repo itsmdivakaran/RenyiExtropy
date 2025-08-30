@@ -29,6 +29,40 @@ quantifying uncertainty and diversity in datasets.
 # install.packages("pak")
 # pak::pak("itsmdivakaran/Renyi-Extropy")
 
+
+# OR
+
+# Installation (development version from GitHub)
+install.packages("remotes")
+```
+
+    ## Installing package into '/private/var/folders/k_/b3s11b6s6snf80p7kbq8mwl40000gn/T/RtmpwF0vCj/temp_libpath60f713849903'
+    ## (as 'lib' is unspecified)
+
+    ## 
+    ## The downloaded binary packages are in
+    ##  /var/folders/k_/b3s11b6s6snf80p7kbq8mwl40000gn/T//RtmpFXUzg7/downloaded_packages
+
+``` r
+remotes::install_github("itsmdivakaran/RenyiExtropy")
+```
+
+    ## Using GitHub PAT from the git credential store.
+
+    ## Downloading GitHub repo itsmdivakaran/RenyiExtropy@HEAD
+
+    ## ── R CMD build ─────────────────────────────────────────────────────────────────
+    ## * checking for file ‘/private/var/folders/k_/b3s11b6s6snf80p7kbq8mwl40000gn/T/RtmpFXUzg7/remotes62f84b8cebc8/itsmdivakaran-RenyiExtropy-69926c9/DESCRIPTION’ ... OK
+    ## * preparing ‘RenyiExtropy’:
+    ## * checking DESCRIPTION meta-information ... OK
+    ## * checking for LF line-endings in source and make files and shell scripts
+    ## * checking for empty or unneeded directories
+    ## * building ‘RenyiExtropy_0.1.0.tar.gz’
+
+    ## Installing package into '/private/var/folders/k_/b3s11b6s6snf80p7kbq8mwl40000gn/T/RtmpwF0vCj/temp_libpath60f713849903'
+    ## (as 'lib' is unspecified)
+
+``` r
 # ------------------------------
 # Load the package
 # ------------------------------

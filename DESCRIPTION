@@ -1,16 +1,20 @@
 Package: RenyiExtropy
 Type: Package
 Title: Entropy and Extropy Measures for Probability Distributions
-Version: 0.2.0.9000
+Version: 0.3.0
 Authors@R: c(
-    person(given = "Mahesh", family = "Divakaran",
+    person(given = "Divakaran", family = "Mahesh",
            email = "itsmdivakaran@gmail.com", 
-           role = "cre",
+           role = c("aut","cre"),
            comment = c(ORCID = "0000-0002-3488-0857")),
-    person(given = "Rajesh", family = "G",
+    person(given = "G", family = "Rajesh",
            email = "rajeshgstat@cusat.ac.in", 
            role = "aut",
-           comment = c(ORCID = "0000-0002-3488-0857")))
+           comment = c(ORCID = "0000-0002-0421-0414")),
+    person(given = "Sreekumar", family = "Jayalekshmi",
+           email = "jayalekshmi1408@gmail.com", 
+           role = "aut",
+           comment = c(ORCID = "0009-0000-7477-949X")))
 Description: Provides functions to compute Shannon entropy, Rényi entropy, Tsallis entropy, 
     and related extropy measures for discrete probability distributions. Includes normalized 
     versions and support for various q-orders. Useful for information theory, statistics, 
@@ -20,5 +24,11 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Depends: 
+    R (>= 3.5)
+LazyData: true
+VignetteBuilder: knitr

@@ -27,6 +27,13 @@ These measures are useful in **information theory**, **statistics**, **signal pr
 # install.packages("pak")
 # pak::pak("itsmdivakaran/Renyi-Extropy")
 
+
+# OR
+
+# Installation (development version from GitHub)
+install.packages("remotes")
+remotes::install_github("itsmdivakaran/RenyiExtropy")
+
 # ------------------------------
 # Load the package
 # ------------------------------
