@@ -27,7 +27,7 @@ quantifying uncertainty and diversity in datasets.
 # Installation (development version from GitHub)
 # ------------------------------
 # install.packages("pak")
-# pak::pak("itsmdivakaran/Renyi-Extropy")
+# pak::pak("itsmdivakaran/RenyiExtropy")
 
 
 # OR
